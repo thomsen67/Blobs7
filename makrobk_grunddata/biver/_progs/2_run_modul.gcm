@@ -1,0 +1,5 @@
+reset;
+option databank dlink = yes;
+%uddata = 'K:\MAKROBK_KILDE\2025_10_01\tth\test\makrobk_grunddata\biver\_uddata';
+x = 104;               
+write <csv> {%uddata}\data1;
